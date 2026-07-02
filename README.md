@@ -19,3 +19,5 @@ npm run dev
 ```
 Open `http://localhost:5173`
 
+## Live Demo
+[View Live](https://student-results-system-bay.vercel.app/)
