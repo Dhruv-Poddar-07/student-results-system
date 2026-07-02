@@ -1,5 +1,3 @@
-<img width="1695" height="1078" alt="image" src="https://github.com/user-attachments/assets/82c6d493-d04a-4fa2-bcf9-33202227841a" /># Students Results Management System
-
 A React + Bootstrap web app to manage and display student results with real-time calculations.
 
 ## Features
