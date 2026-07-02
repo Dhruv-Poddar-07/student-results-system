@@ -1,16 +1,23 @@
-# React + Vite
+<img width="1695" height="1078" alt="image" src="https://github.com/user-attachments/assets/82c6d493-d04a-4fa2-bcf9-33202227841a" /># Students Results Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Bootstrap web app to manage and display student results with real-time calculations.
 
-Currently, two official plugins are available:
+## Features
+- Add student marks (English, Maths, Hindi)
+- Auto-calculate total, percentage, and pass/fail status
+- Dark mode toggle
+- Search/filter students by name or roll number
+- Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React 18
+- Bootstrap 5
+- Vite
 
-## React Compiler
+## How to Run Locally
+```bash
+npm install
+npm run dev
+```
+Open `http://localhost:5173`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
