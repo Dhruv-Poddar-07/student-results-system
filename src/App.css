@@ -1,0 +1,51 @@
+body, html {
+  background-color: #1a1a1a; /* or whatever your dark bg is */
+  margin: 0;
+  padding: 0;
+}
+
+.cards-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.result-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 30px;
+  margin: 20px 0;
+  color: white;
+}
+
+.result-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 15px;
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.pass {
+  background: #4caf50;
+  color: white;
+}
+
+.fail {
+  background: #f44336;
+  color: white;
+}
